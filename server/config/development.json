@@ -1,5 +1,5 @@
 {
     "Level": "development",
     "PORT": 3000,
-    "MANGOURI": "mangodb://localhost:27017/my_db"
+    "MANGOURI": "mongodb://localhost:27017/my_db"
 }
