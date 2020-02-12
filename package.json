@@ -1,0 +1,19 @@
+{
+  "name": "daily-activity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "export NODE_ENV=test || SET NODE_ENV=test && nodemon --exec npm start",
+    "start": "node server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.2.5",
+    "express": "^4.17.1",
+    "mangodb": "^1.0.0",
+    "mongoose": "^5.8.11"
+  }
+}
